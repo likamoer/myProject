@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../swiper.min.css">
+
+    <!-- Demo styles -->
+    <style>
+    html{
+        font-size: 13.33333333vw;
+    }
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 7.5rem;
+        /*height: 300px;*/
+        margin: 20px auto;
+    }
+    .swiper-slide {
+        text-align: center;
+        /*font-size: 18px;*/
+        /*background: #fff;*/
+        width: 60%;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    /*.swiper-slide:nth-child(2n) {
+        width: 40%;
+    }
+    .swiper-slide:nth-child(3n) {
+        width: 20%;
+    }*/
+    </style>
+</head>
+<body>
+    <!-- Swiper -->
+    <div class="shangpin">
+        <div class="my_header">
+            <span></span>
+            <i></i>
+        </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper" id="huadong">
+                <div class="swiper-slide"><img src="../images/shangpin.jpg" height="787" width="514"></div>
+                <div class="swiper-slide"><img src="../images/shangpin.jpg" height="787" width="514"></div>
+                <div class="swiper-slide"><img src="../images/shangpin.jpg" height="787" width="514"></div>
+                <div class="swiper-slide"><img src="../images/shangpin.jpg" height="787" width="514"></div>
+                
+
+            </div>
+        </div>
+        <div class="content">
+            <h2>2016新款秋季修身男士休闲棒球外套股份金额后果</h2>
+            <p><span>¥608.00</span> <strong>秋季新品</strong></p>
+            <h3><span>月销5340</span><span>库存1340</span><strong>234</strong></h3>
+            <ul class="clearfix">
+                <li><span></span>24小时发货</li>
+                <li><span></span>7天无理由退货</li>
+                <li><span></span>消费者保障服务</li>
+            </ul>
+        </div>
+        <div class="footer">
+            <ul id="icon">
+                <li>ww</li>
+                <li>ww</li>
+                <li>ww</li>
+            </ul>
+            <div class="jiaru">加入购物车</div>
+            <div class="liji">立即购买</div>
+        </div>
+    </div>
+    
+
+    <script src="../swiper.min.js"></script>
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        // pagination: '.swiper-pagination',
+        slidesPerView: 1,
+        // loop:true,
+        // centeredSlides: true,
+        paginationClickable: true,
+        spaceBetween: 30
+    });
+    </script>
+</body>
+</html>

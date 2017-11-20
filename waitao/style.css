@@ -1,0 +1,204 @@
+#buycar {
+  width: 7.5rem;
+}
+#buycar .my_header {
+  width: 100%;
+  height: 0.8rem;
+  text-align: center;
+  background-color: #fff;
+  line-height: 0.8rem;
+  font-size: 0.36rem;
+}
+#buycar .my_header span {
+  display: inline-block;
+  width: 0.24rem;
+  height: 0.37rem;
+  background: url(../images/sprite.png) no-repeat 0 -1.92rem;
+  background-size: 5.0rem;
+  float: left;
+  margin-left: 0.20rem;
+  margin-top: 0.25rem;
+}
+#buycar .my_header strong {
+  font-weight: normal;
+}
+#buycar .my_header i {
+  display: inline-block;
+  width: 0.41rem;
+  height: 0.41rem;
+  background: url(../images/sprite.jpg) no-repeat 0 -3.18rem;
+  background-size: 5.0rem;
+  float: right;
+  margin: 0.2rem;
+}
+#buycar .display {
+  width: 100%;
+  font-size: 16px;
+  margin-top: 0.2rem;
+}
+#buycar .display .left_bar {
+  width: 3.2rem;
+  margin-left: 0.25rem;
+  text-align: center;
+  float: left;
+}
+#buycar .display .left_bar img {
+  width: 100%;
+}
+#buycar .display .left_bar .top {
+  width: 100%;
+  height: 5.2rem;
+  background-color: #fff;
+  padding: 0.1rem;
+  margin-bottom: 0.1rem;
+  box-sizing: padding-box;
+}
+#buycar .display .left_bar .top p {
+  font-size: 0.12rem;
+  margin-top: 0.24rem;
+}
+#buycar .display .left_bar .top h4 {
+  width: 100%;
+  margin-top: 0.24rem;
+}
+#buycar .display .left_bar .top h4 .s1 {
+  float: left;
+  margin-left: 0.2rem;
+  color: #cc0000;
+  font-weight: normal;
+}
+#buycar .display .left_bar .top h4 .s2 {
+  background: url(../images/heart.png) no-repeat left;
+  background-size: 30%;
+  text-indent: 0.3rem;
+  float: right;
+  margin-right: 0.2rem;
+  color: #676767;
+  font-weight: normal;
+}
+#buycar .display .left_bar .top h4 .s2:active {
+  background: url(../images/heart1.png) no-repeat left;
+  background-size: 30%;
+}
+#buycar .display .left_bar .bottom {
+  width: 100%;
+  height: 4.3rem;
+  background-color: #fff;
+  padding: 0.1rem;
+  margin-bottom: 0.1rem;
+  box-sizing: padding-box;
+}
+#buycar .display .left_bar .bottom p {
+  font-size: 0.12rem;
+  margin-top: 0.24rem;
+}
+#buycar .display .left_bar .bottom h4 {
+  width: 100%;
+  margin-top: 0.24rem;
+}
+#buycar .display .left_bar .bottom h4 .s1 {
+  float: left;
+  margin-left: 0.2rem;
+  color: #cc0000;
+  font-weight: normal;
+}
+#buycar .display .left_bar .bottom h4 .s2 {
+  background: url(../images/heart.png) no-repeat left;
+  background-size: 30%;
+  text-indent: 0.3rem;
+  float: right;
+  margin-right: 0.2rem;
+  color: #676767;
+  font-weight: normal;
+}
+#buycar .display .left_bar .bottom h4 .s2:active {
+  background: url(../images/heart1.png) no-repeat left;
+  background-size: 30%;
+}
+#buycar .display .right_bar {
+  width: 3.2rem;
+  margin-left: 0.35rem;
+  text-align: center;
+  float: left;
+}
+#buycar .display .right_bar img {
+  width: 100%;
+}
+#buycar .display .right_bar .top {
+  width: 100%;
+  height: 4.3rem;
+  background-color: #fff;
+  padding: 0.1rem;
+  margin-bottom: 0.1rem;
+  box-sizing: padding-box;
+}
+#buycar .display .right_bar .top p {
+  font-size: 0.12rem;
+  margin-top: 0.24rem;
+}
+#buycar .display .right_bar .top h4 {
+  width: 100%;
+  margin-top: 0.24rem;
+}
+#buycar .display .right_bar .top h4 .s1 {
+  float: left;
+  margin-left: 0.2rem;
+  color: #cc0000;
+  font-weight: normal;
+}
+#buycar .display .right_bar .top h4 .s2 {
+  background: url(../images/heart.png) no-repeat left;
+  background-size: 30%;
+  text-indent: 0.3rem;
+  float: right;
+  margin-right: 0.2rem;
+  color: #676767;
+  font-weight: normal;
+}
+#buycar .display .right_bar .top h4 .s2:active {
+  background: url(../images/heart1.png) no-repeat left;
+  background-size: 30%;
+}
+#buycar .display .right_bar .bottom {
+  width: 100%;
+  height: 5.2rem;
+  background-color: #fff;
+  padding: 0.1rem;
+  margin-bottom: 0.1rem;
+  box-sizing: padding-box;
+}
+#buycar .display .right_bar .bottom p {
+  font-size: 0.12rem;
+  margin-top: 0.24rem;
+}
+#buycar .display .right_bar .bottom h4 {
+  width: 100%;
+  margin-top: 0.24rem;
+}
+#buycar .display .right_bar .bottom h4 .s1 {
+  float: left;
+  margin-left: 0.2rem;
+  color: #cc0000;
+  font-weight: normal;
+}
+#buycar .display .right_bar .bottom h4 .s2 {
+  background: url(../images/heart.png) no-repeat left;
+  background-size: 30%;
+  text-indent: 0.3rem;
+  float: right;
+  margin-right: 0.2rem;
+  color: #676767;
+  font-weight: normal;
+}
+#buycar .display .right_bar .bottom h4 .s2:active {
+  background: url(../images/heart1.png) no-repeat left;
+  background-size: 30%;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}

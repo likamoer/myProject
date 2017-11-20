@@ -1,0 +1,64 @@
+#buycar {
+  width: 7.5rem;
+}
+#buycar .my_header {
+  width: 100%;
+  height: 0.8rem;
+  text-align: center;
+  background-color: #fff;
+  line-height: 0.8rem;
+  font-size: 0.36rem;
+}
+#buycar .my_header span {
+  display: inline-block;
+  width: 0.24rem;
+  height: 0.37rem;
+  background: url(../images/sprite.png) no-repeat 0 -1.92rem;
+  background-size: 5.0rem;
+  float: left;
+  margin-left: 0.20rem;
+  margin-top: 0.25rem;
+}
+#buycar .my_header strong {
+  font-weight: normal;
+}
+#buycar .my_header i {
+  display: inline-block;
+  width: 0.41rem;
+  height: 0.41rem;
+  background: url(../images/sprite.jpg) no-repeat 0 -3.18rem;
+  background-size: 5.0rem;
+  float: right;
+  margin: 0.2rem;
+}
+#buycar .context {
+  width: 100%;
+  margin-top: 0.2rem;
+}
+#buycar .context .img1 {
+  width: 100%;
+  padding: 0.15rem;
+  height: 6.06rem;
+}
+#buycar .context .img1 img {
+  width: 95%;
+  height: 6.06rem;
+}
+#buycar .context .img2 {
+  width: 100%;
+  margin-top: 0.2rem;
+  padding: 0.15rem;
+  height: 6.06rem;
+}
+#buycar .context .img2 img {
+  width: 94%;
+  height: 6.06rem;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}

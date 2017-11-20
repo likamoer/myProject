@@ -1,0 +1,194 @@
+#buycar {
+  width: 7.5rem;
+}
+#buycar .my_header {
+  width: 100%;
+  height: 0.8rem;
+  text-align: center;
+  background-color: #fff;
+  line-height: 0.8rem;
+  font-size: 0.36rem;
+}
+#buycar .my_header span {
+  display: inline-block;
+  width: 0.24rem;
+  height: 0.37rem;
+  background: url(../images/sprite.png) no-repeat 0 -1.92rem;
+  background-size: 5.0rem;
+  float: left;
+  margin-left: 0.20rem;
+  margin-top: 0.25rem;
+}
+#buycar .my_header strong {
+  font-weight: normal;
+}
+#buycar .context {
+  width: 100%;
+  margin-top: 0.2rem;
+}
+#buycar .context .shr {
+  background-color: #fff;
+  font-size: 0.16rem;
+  padding-bottom: 0.2rem;
+}
+#buycar .context .shr h1 {
+  width: 100%;
+  font-weight: normal;
+  padding: 0.3rem;
+}
+#buycar .context .shr h1 strong {
+  margin-left: 0.3rem;
+  font-weight: normal;
+}
+#buycar .context .shr p {
+  width: 95%;
+  margin-left: 0.3rem;
+  padding-left: 0.3rem;
+  text-indent: 0.1rem;
+  height: 0.5rem;
+  color: #ccc;
+  background: url(../images/weizhi.jpg) no-repeat left center;
+  background-size: 5%;
+}
+#buycar .context .detail {
+  font-size: 0.16rem;
+  background-color: #fff;
+  margin-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+#buycar .context .detail .name {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0.15rem;
+  font-size: 0.4rem;
+  border-bottom: 1px solid #ccc;
+}
+#buycar .context .detail .name span {
+  font-size: 0.5rem;
+}
+#buycar .context .detail .name strong {
+  float: right;
+  color: #ccc;
+  font-size: 0.3rem;
+  font-weight: normal;
+}
+#buycar .context .detail .content {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 0.2rem;
+  position: relative;
+  padding-bottom: 0.2rem;
+  border-bottom: 1px solid #ccc;
+}
+#buycar .context .detail .content img {
+  width: 1.9rem;
+  height: 1.95rem;
+  margin-left: 0.1rem;
+  vertical-align: top;
+}
+#buycar .context .detail .content .text {
+  display: inline-block;
+  width: 4.2rem;
+  margin-left: 0.35rem;
+}
+#buycar .context .detail .content .text h2 {
+  font-size: 0.3rem;
+  padding: 0.2rem 0;
+}
+#buycar .context .detail .content .text p {
+  color: #676767;
+}
+#buycar .context .detail .content .text h3 {
+  margin-top: 0.15rem;
+}
+#buycar .context .detail .content .text h3 span {
+  color: #cc0000;
+  float: left;
+}
+#buycar .context .detail .content .text h3 strong {
+  float: right;
+  color: #676767;
+}
+#buycar .context .detail dd {
+  width: 90%;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  margin: 0 auto;
+  border-bottom: 1px solid #ccc;
+}
+#buycar .context .detail dd b {
+  font-size: 0.3rem;
+  font-weight: normal;
+}
+#buycar .context .detail dd i {
+  font-style: normal;
+  float: right;
+  color: #ccc;
+}
+#buycar .context .detail textarea {
+  width: 86%;
+  border-radius: 0.2rem;
+  display: block;
+  margin: 0.2rem auto;
+  border: 0;
+  padding: 0.15rem;
+  background-color: #eee;
+}
+#buycar .context .footer {
+  width: 100%;
+  font-size: 0.16rem;
+  margin-top: 0.3rem;
+  background-color: #fff;
+}
+#buycar .context .footer p {
+  width: 90%;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  margin: 0 auto;
+  background: url(../images/laba.jpg) no-repeat left center;
+  background-size: 6%;
+  text-indent: 0.5rem;
+  padding: 0.3rem 0;
+}
+#buycar .querrr {
+  width: 100%;
+  height: 1.0rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  font-size: 0.16rem;
+}
+#buycar .querrr .left {
+  background-color: #333333;
+  float: left;
+  font-size: 0.16rem;
+  width: 3.8rem;
+  height: 1.0rem;
+  line-height: 1.0rem;
+  text-align: center;
+}
+#buycar .querrr .left p {
+  color: #fff;
+}
+#buycar .querrr .left p span {
+  font-size: 0.3rem;
+  color: #ffb166;
+}
+#buycar .querrr .right {
+  float: right;
+  color: #fff;
+  background-color: #ffb166;
+  font-size: 0.3rem;
+  width: 3.69rem;
+  height: 1.0rem;
+  line-height: 1.0rem;
+  text-align: center;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}

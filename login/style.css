@@ -1,0 +1,88 @@
+#login {
+  width: 7.5rem;
+  height: 13.34rem;
+  background: url(../images/loginbg.jpg) no-repeat;
+  background-size: 100%;
+  font-size: 0.16rem;
+}
+#login a {
+  text-decoration: none;
+  color: #fff;
+}
+#login .username {
+  position: fixed;
+  left: 0.5rem;
+  top: 6.8rem;
+}
+#login .username input {
+  display: block;
+  width: 6.5rem;
+  height: 0.7rem;
+  text-indent: 0.9rem;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  margin: 0 auto;
+  background: url(../images/user.png) no-repeat left center;
+  background-size: 8%;
+}
+#login .passward {
+  position: fixed;
+  left: 0.5rem;
+  top: 7.8rem;
+}
+#login .passward input {
+  display: block;
+  width: 6.5rem;
+  text-indent: 0.9rem;
+  height: 0.7rem;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  margin: 0 auto;
+  background: url(../images/PWD.jpg) no-repeat left center;
+  background-size: 8%;
+}
+#login .zhuce {
+  width: 100%;
+  position: fixed;
+  font-size: 0.3rem;
+  left: 0.5rem;
+  top: 9.2rem;
+  color: #d2d2d2;
+}
+#login .zhuce .s1 {
+  float: left;
+}
+#login .zhuce .s2 {
+  float: right;
+  margin-right: 0.9rem;
+}
+#login .anniu {
+  width: 2.0rem;
+  height: 0.9rem;
+  margin: 0 auto;
+  position: fixed;
+  left: 2.8rem;
+  top: 11.2rem;
+}
+#login .anniu button {
+  outline: none;
+  border: 0;
+  font-size: 0.38rem;
+  color: #fff;
+  width: 100%;
+  height: 0.9rem;
+  line-height: 0.9rem;
+  text-align: center;
+  background-color: #ffb166;
+  border-radius: 0.1rem;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
